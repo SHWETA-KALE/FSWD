@@ -1,0 +1,3 @@
+git log --format="tformat:%>|(15)%C(auto)%h %Cgreen %<(20,trunc)%cn %C(auto) %<(15,trunc)%ar %<($((COLS-55)),trunc)%s" --graph
+
+// for keeping the git log history in a easy format
